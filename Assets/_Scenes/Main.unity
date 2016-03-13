@@ -278,6 +278,9 @@ MonoBehaviour:
     xMax: 6
     zMin: -4
     zMax: 8
+  shot: {fileID: 126854, guid: 46f3365d95e7590459b51eaf2c5c69bd, type: 2}
+  shotSpawn: {fileID: 1133268926}
+  fireRate: 0.25
 --- !u!1 &800054421
 GameObject:
   m_ObjectHideFlags: 0
@@ -462,6 +465,33 @@ Light:
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
+--- !u!1 &1133268925
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1133268926}
+  m_Layer: 0
+  m_Name: Shot Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1133268926
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1133268925}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 462430335}
+  m_RootOrder: 1
 --- !u!1 &1366212027
 GameObject:
   m_ObjectHideFlags: 0
